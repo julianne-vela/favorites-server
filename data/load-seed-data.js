@@ -37,7 +37,7 @@ async function run() {
 					published,
 					updated,
 					bookmarked,
-					linksEventLaunch,
+					links_event_launch,
 				}) => {
 					return client.query(
 						`
@@ -51,7 +51,7 @@ async function run() {
                         published,
                         updated,
                         bookmarked, 
-                        linksEventLaunch,
+                        links_event_launch,
                         user_id
                     )
                     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11);
@@ -66,7 +66,7 @@ async function run() {
 							published,
 							updated,
 							bookmarked,
-							linksEventLaunch,
+							links_event_launch,
 							user.id,
 						]
 					);

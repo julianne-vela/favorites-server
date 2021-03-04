@@ -27,7 +27,7 @@ async function run() {
                     published VARCHAR(512) NOT NULL,
                     updated VARCHAR(512) NOT NULL,
                     bookmarked BOOLEAN NOT NULL,
-                    linksEventLaunch BOOLEAN NOT NULL,
+                    links_event_launch BOOLEAN NOT NULL,
                     user_id INTEGER NOT NULL REFERENCES users(id)
             );
         `);

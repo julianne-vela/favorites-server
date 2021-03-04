@@ -9,19 +9,7 @@ module.exports = [
 		published: '02/28/2021',
 		bookmarked: false,
 		updated: '03/01/2021',
-		linksEventLaunch: true,
-		launches: [
-			{
-				id: 1,
-				provider: 'SpaceX',
-			},
-		],
-		events: [
-			{
-				id: 2,
-				provider: 'NASA',
-			},
-		],
+		links_event_launch: true,
 	},
 	{
 		article_id: 'agjagj2325ljlagg9',
@@ -33,19 +21,7 @@ module.exports = [
 		published: '03/01/2021',
 		bookmarked: false,
 		updated: '03/01/2021',
-		linksEventLaunch: true,
-		launches: [
-			{
-				id: 1,
-				provider: 'SpaceX',
-			},
-		],
-		events: [
-			{
-				id: 2,
-				provider: 'NASA',
-			},
-		],
+		links_event_launch: true,
 	},
 	{
 		article_id: 'agjagasg352jlkjaga34',
@@ -57,18 +33,6 @@ module.exports = [
 		published: '03/03/2021',
 		bookmarked: false,
 		updated: '03/01/2021',
-		linksEventLaunch: true,
-		launches: [
-			{
-				id: 1,
-				provider: 'SpaceX',
-			},
-		],
-		events: [
-			{
-				id: 2,
-				provider: 'NASA',
-			},
-		],
+		links_event_launch: true,
 	},
 ];
