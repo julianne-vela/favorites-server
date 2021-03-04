@@ -14,11 +14,11 @@ async function run() {
 			usersData.map((user) => {
 				return client.query(
 					`
-                      INSERT INTO users (name, email, hash)
-                      VALUES ($1, $2, $3)
+                      INSERT INTO users (email, hash)
+                      VALUES ($1, $2)
                       RETURNING *;
                   `,
-					[user.name, user.email, user.hash]
+					[user.email, user.hash]
 				);
 			})
 		);
